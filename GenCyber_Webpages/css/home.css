@@ -58,13 +58,14 @@ header{
     position: relative;
     left: 45px;
     color: #FFF;
-    font-size: 45.102px;
+    font-size: 45px;
 }
 
 /*Shift all content up to approiate spot*/
 .content{
     position: relative;
     top: -46px;
+    height: 580px;
 }
 
 /* Text Content Section */
@@ -114,9 +115,8 @@ h2{
 
 .workshop_times{
     position: relative;
-    top: -370px;
     background-color: #BE0523;
-    padding-bottom: 46px;
+    padding-bottom: 45px;
 }
 
 #dates{
@@ -153,7 +153,7 @@ h2{
 /* Footer Section */
 .footer_meta{
     position: relative;
-    top: -390px;
+    top: -16px;
     background-color: #0e2d52;
 }
 
@@ -179,8 +179,19 @@ h2{
     font-weight: bold;
 }
 
+.subfooter{
+    height: 22px;
+}
+
 .copyright{
     position: relative;
-    top: -390px;
+    top: -16px;
+    left: 5px;
     color: #0e2d52;
+}
+
+.links{
+    position: relative;
+    top: -56px;
+    left: 95%;
 }
