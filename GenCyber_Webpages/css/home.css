@@ -1,23 +1,27 @@
 /* Correct page size */
 body{
+    overflow-x: hidden;
+    width: 100vw;
     margin: 0%;
 }
 
 /* Header Section [Top of page]*/
 #USCA{
     position: relative;
-    width: 140px;
+    width: 10%;
     height: 45px;
 }
 
 #top_header{
     position: relative;
     left: 10%;
-    top: -46px;
+    top: -48px;
+    width: 600px;
     font-weight: 100;
     margin: 0%;
 }
 
+/*Format btns*/
 .btn{
     background: #FFF;
     border: 0;
@@ -29,34 +33,37 @@ body{
     text-align: center;
 }
 
+/*btns links to other pages*/
 #home{
     position: relative;
-    right: -82%;
-    top: -80px;
+    left: 82%;
+    top: -82px;
 }
 
 #contact{
     position: relative;
-    right: -83%;
-    top: -80px;
+    left: 83%;
+    top: -82px;
 }
 
 #resources{
     position: relative;
-    right: -84%;
+    float: right;
+    right: 2%;
     top: -80px;
 }
 
+/*Banner for page indication*/
 .banner{
     position: relative;
-    top: -46px;
+    top: -60px;
     background-color: #BE0523;
 
 }
 
 header{
     position: relative;
-    left: 45px;
+    left: 3%;
     color: #FFF;
     font-size: 45px;
 }
@@ -64,51 +71,50 @@ header{
 /*Shift all content up to approiate spot*/
 .content{
     position: relative;
-    top: -46px;
-    height: 580px;
+    top: -48px;
 }
 
 /* Text Content Section */
 h1{
     position: relative;
-    left: 45px;
+    left: 3%;
     color: #0e2d52;
-    font-size: 38;
+    font-size: 38px;
 }
 
 #summary{
     position: relative;
-    left: 45px;
+    left: 3%;
 }
 
 #GenCyber{
     position: relative;
-    left: 62%;
-    width: 572px;
-    height: 370px;
+    float: right;
+    width: 38%;
+    height: 49%;
 }
 
 .info_header{
     position: relative;
-    top: -370px;
+    top: -64%;
 }
 
 #goals{
     position: relative;
-    top: -370px;
-    left: 45px;
+    top: -64%;
+    left: 3%;
 }
 
 #who{
     position: relative;
-    top: -370px;
-    left: 45px;
+    top: -64%;
+    left: 3%;
 }
 
 /* Table Section */
 h2{
     position: relative;
-    left: 45px;
+    left: 3%;
     color: #FFF;
     font-size: 38;
 }
@@ -121,17 +127,18 @@ h2{
 
 #dates{
     position: relative;
-    left: 45px;
-    width: 1410px;
+    left: 3%;
+    width: 94%;
     height: 250px;
 }
 
+/*Format individual table coloumns*/
 .first{
     background-color: #FFF;
     text-align: center;
     color: #000;
     font-size: 24px;
-    width: 470px;
+    width: 31%;
 }
 
 .second{
@@ -139,7 +146,7 @@ h2{
     text-align: center;
     color: #FFF;
     font-size: 24px;
-    width: 460px;
+    width: 30%;
 }
 
 .third{
@@ -155,19 +162,22 @@ h2{
     position: relative;
     top: -16px;
     background-color: #0e2d52;
+    padding-bottom: 16px;
 }
 
 .location{
     position: relative;
     top: 20px;
-    left: 45px;
+    left: 3%;
     color: #FFF;
 }
 
+/*btn to return to top of page*/
 #top{
     position: relative;
-    left: 90%;
+    float: right;
     top: -65px;
+    right: 3%;
     background: #FFF;
     border: 0;
     border-radius: 3px;
@@ -179,6 +189,7 @@ h2{
     font-weight: bold;
 }
 
+/*footer with copyright and links to other platforms*/
 .subfooter{
     height: 22px;
 }
@@ -192,6 +203,8 @@ h2{
 
 .links{
     position: relative;
+    float: right;
     top: -56px;
-    left: 95%;
+    right: 3%;
 }
+

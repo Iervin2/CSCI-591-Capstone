@@ -1,23 +1,27 @@
 /* Correct page size */
 body{
+    overflow-x: hidden;
+    width: 100vw;
     margin: 0%;
 }
 
 /* Header Section [Top of page]*/
 #USCA{
     position: relative;
-    width: 140px;
+    width: 10%;
     height: 45px;
 }
 
 #top_header{
     position: relative;
     left: 10%;
-    top: -46px;
+    top: -48px;
+    width: 600px;
     font-weight: 100;
     margin: 0%;
 }
 
+/*Format btns*/
 .btn{
     background: #FFF;
     border: 0;
@@ -29,38 +33,40 @@ body{
     text-align: center;
 }
 
+/*btns links to other pages*/
 #home{
     position: relative;
-    right: -82%;
-    top: -80px;
+    left: 82%;
+    top: -82px;
 }
 
 #contact{
     position: relative;
-    right: -83%;
-    top: -80px;
+    left: 83%;
+    top: -82px;
 }
 
 #resources{
     position: relative;
-    right: -84%;
+    float: right;
+    right: 2%;
     top: -80px;
 }
 
+/*Banner for page indication*/
 .banner{
     position: relative;
-    top: -46px;
+    top: -60px;
     background-color: #BE0523;
 
 }
 
 header{
     position: relative;
-    left: 45px;
+    left: 3%;
     color: #FFF;
-    font-size: 45.102px;
+    font-size: 45px;
 }
-
 
 /*Shift all content up to approiate spot*/
 .content{
@@ -76,6 +82,8 @@ h1{
     color: #0e2d52;
     font-size: 38;
 }
+
+/*Contact Us box*/
 .contact_title{
     width: 230px;
     color: #404040;
@@ -84,9 +92,9 @@ h1{
 .contact_box{
     background-color: #F3F3F3;
     position: relative;
-    left: 1150px;
+    left: 77%;
     top: -40px;
-    width: 300px;
+    width: 20%;
     padding-top: 10px;
     padding-left: 36px;
     padding-bottom: 36px;
@@ -102,6 +110,7 @@ h1{
     font-style: normal;
 }
 
+/*GenCyber logo*/
 #GenCyber{
     position: relative;
     left: 1048px;
@@ -110,6 +119,7 @@ h1{
     height: 290px;
 }
 
+/*Name titles*/
 .titles{
     text-align: center;
 }
@@ -155,19 +165,22 @@ h1{
     position: relative;
     top: -16px;
     background-color: #0e2d52;
+    padding-bottom: 16px;
 }
 
 .location{
     position: relative;
     top: 20px;
-    left: 45px;
+    left: 3%;
     color: #FFF;
 }
 
+/*btn to return to top of page*/
 #top{
     position: relative;
-    left: 90%;
+    float: right;
     top: -65px;
+    right: 3%;
     background: #FFF;
     border: 0;
     border-radius: 3px;
@@ -179,6 +192,7 @@ h1{
     font-weight: bold;
 }
 
+/*footer with copyright and links to other platforms*/
 .subfooter{
     height: 22px;
 }
@@ -192,7 +206,7 @@ h1{
 
 .links{
     position: relative;
+    float: right;
     top: -56px;
-    left: 95%;
+    right: 3%;
 }
-
