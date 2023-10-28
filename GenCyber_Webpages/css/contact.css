@@ -113,7 +113,8 @@ h1{
 /*GenCyber logo*/
 #GenCyber{
     position: relative;
-    left: 1048px;
+    float: right;
+    right: 2%;
     top: 50px;
     width: 448px;
     height: 290px;
@@ -126,38 +127,36 @@ h1{
 
 #berry{
     position: relative;
-    top: -370px;
-    left: -610px;
+    top: -70px;
+    left: -26%;
 }
 
 #senn{
     position: relative;
-    top: -430px;
-    left: -226px;
+    top: -130px;
 }
 
 #dobbs{
     position: relative;
-    top: -488px;
-    left: 126px;
+    top: -190px;
+    left: 23%;
 }
 
 #peters{
     position: relative;
-    top: -200px;
-    left: -610px;
+    top: 80px;
+    left: -26%;
 }
 
 #hutchens{
     position: relative;
-    top: -260px;
-    left: -226px;
+    top: 20px;
 }
 
 #daignault{
     position: relative;
-    top: -318px;
-    left: 130px;
+    top: -40px;
+    left: 9%;
 }
 
 /* Footer Section */
