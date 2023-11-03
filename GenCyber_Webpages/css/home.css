@@ -217,10 +217,11 @@ h2{
 /**/
 /**/
 /**/
-/*stylesheet for screens with max 425px width (large phones)*/
-@media all and (max-device-width: 425px){
+
+/*stylesheet for screens with max 280px width (large phones)*/
+@media all and (min-device-width: 280px){
     body{
-        font-size: 12px;
+        font-size: 0.6rem;
     }
     
     #USCA{
@@ -231,9 +232,9 @@ h2{
         position: relative;
         top: 10px;
         left: 0px;
-        font-size: 63px;
-        width: 980px;
-        margin: 0%;
+        font-size: 1.8rem;
+        width: 100vw;
+        text-align: center;
     }
 
     /*Format btns*/
@@ -242,7 +243,7 @@ h2{
         border: 0;
         color: #0e2d52;
         cursor: pointer;
-        font-size: 20px;
+        font-size: 1.2rem;
         font-style: normal;
         font-weight: 700;
         text-align: center;
@@ -257,7 +258,7 @@ h2{
 
     #contact{
         position: relative;
-        left: 355px;
+        left: 37vw;        
         top: 10px;
     }
 
@@ -280,7 +281,7 @@ h2{
         position: relative;
         color: #FFF;
         left: 0px;
-        font-size: 40px;
+        font-size: 2rem;
     }
 
     /*Shift all content up to approiate spot*/
@@ -294,7 +295,7 @@ h2{
         position: relative;
         left: 0%;
         color: #0e2d52;
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     #summary{
@@ -323,20 +324,20 @@ h2{
         position: relative;
         left: 0%;
         color: #FFF;
-        font-size: 20px;
+        font-size: 1rem;
     }
 
     .workshop_times{
         position: relative;
-        top: 40px;
+        top: 2vh;
         background-color: #BE0523;
         padding-bottom: 45px;
     }
 
     #dates{
         position: relative;
-        left: 3%;
-        width: 94%;
+        left: 3vw;
+        width: 94vw;
         height: 200px;
     }
 
@@ -345,7 +346,7 @@ h2{
         background-color: #FFF;
         text-align: center;
         color: #000;
-        font-size: 20px;
+        font-size: 1.5rem;
         width: 31%;
     }
 
@@ -353,7 +354,7 @@ h2{
         background-color: #0e2d52;
         text-align: center;
         color: #FFF;
-        font-size: 20px;
+        font-size: 1.5rem;
         width: 30%;
     }
 
@@ -361,13 +362,13 @@ h2{
         background-color: #FFF;
         text-align: center;
         color: #000;
-        font-size: 20px;
+        font-size: 1.5rem;
     }
 
     /* Footer Section */
     .footer_meta{
         position: relative;
-        top: 26px;
+        top: 1vh;
         background-color: #0e2d52;
         padding-bottom: 16px;
     }
@@ -375,6 +376,7 @@ h2{
     .location{
         position: relative;
         top: 14px;
+        font-size: 0.5rem;
         left: 0px;
         color: #FFF;
     }
@@ -382,16 +384,16 @@ h2{
     /*btn to return to top of page*/
     #top{
         position: relative;
-        top: -100px;
+        top: -5vh;
         background: #FFF;
         border: 0;
         border-radius: 3px;
         color: #0e2d52;
         cursor: pointer;
-        width: 160px;
-        height: 40px;
+        width: 13vw;
+        height: 2vh;
         text-align: top;
-        font-size: 20px;
+        font-size: 1rem;
         font-weight: bold;
     }
 
@@ -405,7 +407,8 @@ h2{
         top: 30px;
         left: 5px;
         color: #0e2d52;
-    }
+        font-size: 1.2rem;
+        }
 
     .links{
         position: relative;
@@ -413,10 +416,12 @@ h2{
     }
 }
 
+
+
 /**/
 /**/
 /**/
-/*stylesheet for screens with max 375px width (mid sized phones)*/
+/*stylesheet for screens with max 375px width (mid sized phones)
 @media all and (max-device-width: 375px){
     body{
         font-size: 10px;
@@ -434,7 +439,6 @@ h2{
         margin: 0%;
     }
 
-    /*Format btns*/
     .btn{
         background: #FFF;
         border: 0;
@@ -446,7 +450,6 @@ h2{
         text-align: center;
     }
 
-    /*btns links to other pages*/
     #home{
         position: relative;
         left: 0px;
@@ -465,8 +468,6 @@ h2{
         top: 10px;
     }
         
-
-    /*Banner for page indication*/
     .banner{
         position: relative;
         top: 25px;
@@ -481,13 +482,11 @@ h2{
         font-size: 40px;
     }
 
-    /*Shift all content up to approiate spot*/
     .content{
         position: relative;
         top: 40px;
     }
 
-    /* Text Content Section */
     h1{
         position: relative;
         left: 0%;
@@ -516,7 +515,6 @@ h2{
         right: 15px;
     }
 
-    /* Table Section */
     h2{
         position: relative;
         left: 0%;
@@ -538,7 +536,6 @@ h2{
         height: 200px;
     }
 
-    /*Format individual table coloumns*/
     .first{
         background-color: #FFF;
         text-align: center;
@@ -562,7 +559,6 @@ h2{
         font-size: 20px;
     }
 
-    /* Footer Section */
     .footer_meta{
         position: relative;
         top: 26px;
@@ -574,208 +570,10 @@ h2{
         position: relative;
         top: 14px;
         left: 0px;
-        color: #FFF;
-    }
-
-    /*btn to return to top of page*/
-    #top{
-        position: relative;
-        top: -100px;
-        background: #FFF;
-        border: 0;
-        border-radius: 3px;
-        color: #0e2d52;
-        cursor: pointer;
-        width: 160px;
-        height: 40px;
-        text-align: top;
-        font-size: 20px;
-        font-weight: bold;
-    }
-
-    /*footer with copyright and links to other platforms*/
-    .subfooter{
-        height: 22px;
-    }
-
-    .copyright{
-        position: relative;
-        top: 30px;
-        left: 5px;
-        color: #0e2d52;
-    }
-
-    .links{
-        position: relative;
-        top: 0px;
-    }
-}
-
-/**/
-/**/
-/**/
-/*stylesheet for screens with max 325px width (mid sized phones)*/
-@media all and (max-device-width: 325px){
-    body{
         font-size: 10px;
-    }
-    
-    #USCA{
-        display: none;
-    }
-
-    #top_header{
-        position: relative;
-        top: 10px;
-        left: 0px;
-        font-size: 45px;
-        margin: 0%;
-    }
-
-    /*Format btns*/
-    .btn{
-        background: #FFF;
-        border: 0;
-        color: #0e2d52;
-        cursor: pointer;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        text-align: center;
-    }
-
-    /*btns links to other pages*/
-    #home{
-        position: relative;
-        left: 0px;
-        top: 10px;
-    }
-
-    #contact{
-        position: relative;
-        left: 355px;
-        top: 10px;
-    }
-
-    #resources{
-        position: relative;
-        right: 9px;
-        top: 10px;
-    }
-        
-
-    /*Banner for page indication*/
-    .banner{
-        position: relative;
-        top: 25px;
-        background-color: #BE0523;
-
-    }
-
-    header{
-        position: relative;
-        color: #FFF;
-        left: 0px;
-        font-size: 40px;
-    }
-
-    /*Shift all content up to approiate spot*/
-    .content{
-        position: relative;
-        top: 40px;
-    }
-
-    /* Text Content Section */
-    h1{
-        position: relative;
-        left: 0%;
-        color: #0e2d52;
-        font-size: 16px;
-    }
-
-    #summary{
-        position: relative;
-        left: 0%;
-    }
-    
-    #goals{
-        position: relative;
-        left: 0%;
-    }
-    
-    #who{
-        position: relative;
-        left: 0%;
-    }
-
-    #GenCyber{
-        position: relative;
-        height: 260px;
-        right: 15px;
-    }
-
-    /* Table Section */
-    h2{
-        position: relative;
-        left: 0%;
-        color: #FFF;
-        font-size: 20px;
-    }
-
-    .workshop_times{
-        position: relative;
-        top: 40px;
-        background-color: #BE0523;
-        padding-bottom: 45px;
-    }
-
-    #dates{
-        position: relative;
-        left: 3%;
-        width: 94%;
-        height: 200px;
-    }
-
-    /*Format individual table coloumns*/
-    .first{
-        background-color: #FFF;
-        text-align: center;
-        color: #000;
-        font-size: 20px;
-        width: 31%;
-    }
-
-    .second{
-        background-color: #0e2d52;
-        text-align: center;
-        color: #FFF;
-        font-size: 20px;
-        width: 30%;
-    }
-
-    .third{
-        background-color: #FFF;
-        text-align: center;
-        color: #000;
-        font-size: 20px;
-    }
-
-    /* Footer Section */
-    .footer_meta{
-        position: relative;
-        top: 26px;
-        background-color: #0e2d52;
-        padding-bottom: 16px;
-    }
-
-    .location{
-        position: relative;
-        top: 14px;
-        left: 0px;
         color: #FFF;
     }
 
-    /*btn to return to top of page*/
     #top{
         position: relative;
         top: -100px;
@@ -791,7 +589,6 @@ h2{
         font-weight: bold;
     }
 
-    /*footer with copyright and links to other platforms*/
     .subfooter{
         height: 22px;
     }
@@ -808,3 +605,4 @@ h2{
         top: 0px;
     }
 }
+*/
