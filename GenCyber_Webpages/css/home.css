@@ -6,12 +6,13 @@ body{
     flex-direction: column;
 }
 
-/* Header Section [Top of page]*/
+/* Header Section [Top of page]
 #USCA{
     position: relative;
     width: 8vw;
     height: 3vw;
 }
+*/
 
 #top_header{
     position: relative;
@@ -32,13 +33,10 @@ header{
     color: white;
 }
 
-/*Format btns*/
-.btn{
-    background: #FFF;
-    border: 0;
-    color: #0e2d52;
+/*Format links*/
+.links{
     cursor: pointer;
-    font-size: 14px;
+    font-size: 1.3vw;
     font-style: normal;
     font-weight: 700;
     text-align: center;
@@ -49,17 +47,16 @@ header{
 /*btns links to other pages*/
 #home{
     position: relative;
-    font-size: 1.3vw;
 }
 
 #contact{
     position: relative;
-    background-color:#0e2d52;
+    margin-left: 30px;
 }
 
 #resources{
     position: relative;
-    font-size: 1.3vw;
+    margin-left: 30px;
 }
 
 /*Banner for page indication*/
@@ -133,8 +130,6 @@ h1{
     width: 45vw;
     height: 25vw;
 }
-
-
 
 
 /* Table Section */
@@ -232,7 +227,7 @@ h2{
     width: max-content
 }
 
-.links{
+.icons{
     position: relative;
     float: right;
     right: 3%;
