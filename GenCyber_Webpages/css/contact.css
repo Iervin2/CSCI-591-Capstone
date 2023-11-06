@@ -209,3 +209,502 @@ h1{
     top: -56px;
     right: 3%;
 }
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/*stylesheet for screens with max 425px width (large phones)*/
+@media all and (max-device-width: 425px){
+    body{
+        font-size: 12px;
+    }
+    
+    #USCA{
+        display: none;
+    }
+
+    #top_header{
+        position: relative;
+        top: 10px;
+        left: 0px;
+        font-size: 63px;
+        width: 980px;
+        margin: 0%;
+    }
+
+    /*Format btns*/
+    .btn{
+        background: #FFF;
+        border: 0;
+        color: #0e2d52;
+        cursor: pointer;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    /*btns links to other pages*/
+    #home{
+        position: relative;
+        left: 0px;
+        top: 10px;
+    }
+
+    #contact{
+        position: relative;
+        left: 355px;
+        top: 10px;
+    }
+
+    #resources{
+        position: relative;
+        right: 10px;
+        top: 10px;
+    }
+        
+
+    /*Banner for page indication*/
+    .banner{
+        position: relative;
+        top: 25px;
+        background-color: #BE0523;
+
+    }
+
+    header{
+        position: relative;
+        color: #FFF;
+        left: 0px;
+        font-size: 40px;
+    }
+
+    /*Shift all content up to approiate spot*/
+    .content{
+        position: relative;
+        top: 40px;
+    }
+
+
+    /* Footer Section */
+    .footer_meta{
+        position: relative;
+        top: 26px;
+        background-color: #0e2d52;
+        padding-bottom: 16px;
+    }
+
+    .location{
+        position: relative;
+        top: 14px;
+        left: 0px;
+        color: #FFF;
+    }
+
+    /*btn to return to top of page*/
+    #top{
+        position: relative;
+        top: -100px;
+        background: #FFF;
+        border: 0;
+        border-radius: 3px;
+        color: #0e2d52;
+        cursor: pointer;
+        width: 160px;
+        height: 40px;
+        text-align: top;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /*footer with copyright and links to other platforms*/
+    .subfooter{
+        height: 22px;
+    }
+
+    .copyright{
+        position: relative;
+        top: 30px;
+        left: 5px;
+        color: #0e2d52;
+    }
+
+    .links{
+        position: relative;
+        top: 0px;
+    }
+}
+
+/**/
+/**/
+/**/
+/*stylesheet for screens with max 375px width (mid sized phones)*/
+@media all and (max-device-width: 375px){
+    body{
+        font-size: 10px;
+    }
+    
+    #USCA{
+        display: none;
+    }
+
+    #top_header{
+        position: relative;
+        top: 10px;
+        left: 0px;
+        font-size: 59px;
+        margin: 0%;
+    }
+
+    /*Format btns*/
+    .btn{
+        background: #FFF;
+        border: 0;
+        color: #0e2d52;
+        cursor: pointer;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    /*btns links to other pages*/
+    #home{
+        position: relative;
+        left: 0px;
+        top: 10px;
+    }
+
+    #contact{
+        position: relative;
+        left: 355px;
+        top: 10px;
+    }
+
+    #resources{
+        position: relative;
+        right: 9px;
+        top: 10px;
+    }
+        
+
+    /*Banner for page indication*/
+    .banner{
+        position: relative;
+        top: 25px;
+        background-color: #BE0523;
+
+    }
+
+    header{
+        position: relative;
+        color: #FFF;
+        left: 0px;
+        font-size: 40px;
+    }
+
+    /*Shift all content up to approiate spot*/
+    .content{
+        position: relative;
+        top: 40px;
+    }
+
+    
+    /* Footer Section */
+    .footer_meta{
+        position: relative;
+        top: 26px;
+        background-color: #0e2d52;
+        padding-bottom: 16px;
+    }
+
+    .location{
+        position: relative;
+        top: 14px;
+        left: 0px;
+        color: #FFF;
+    }
+
+    /*btn to return to top of page*/
+    #top{
+        position: relative;
+        top: -100px;
+        background: #FFF;
+        border: 0;
+        border-radius: 3px;
+        color: #0e2d52;
+        cursor: pointer;
+        width: 160px;
+        height: 40px;
+        text-align: top;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /*footer with copyright and links to other platforms*/
+    .subfooter{
+        height: 22px;
+    }
+
+    .copyright{
+        position: relative;
+        top: 30px;
+        left: 5px;
+        color: #0e2d52;
+    }
+
+    .links{
+        position: relative;
+        top: 0px;
+    }
+}
+
+/**/
+/**/
+/**/
+/*stylesheet for screens with max 325px width (mid sized phones)*/
+@media all and (max-device-width: 325px){
+    body{
+        font-size: 10px;
+    }
+    
+    #USCA{
+        display: none;
+    }
+
+    #top_header{
+        position: relative;
+        top: 10px;
+        left: 0px;
+        font-size: 45px;
+        margin: 0%;
+    }
+
+    /*Format btns*/
+    .btn{
+        background: #FFF;
+        border: 0;
+        color: #0e2d52;
+        cursor: pointer;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    /*btns links to other pages*/
+    #home{
+        position: relative;
+        left: 0px;
+        top: 10px;
+    }
+
+    #contact{
+        position: relative;
+        left: 355px;
+        top: 10px;
+    }
+
+    #resources{
+        position: relative;
+        right: 9px;
+        top: 10px;
+    }
+        
+
+    /*Banner for page indication*/
+    .banner{
+        position: relative;
+        top: 25px;
+        background-color: #BE0523;
+
+    }
+
+    header{
+        position: relative;
+        color: #FFF;
+        left: 0px;
+        font-size: 40px;
+    }
+
+    /*Shift all content up to approiate spot*/
+    .content{
+        position: relative;
+        top: 40px;
+    }
+
+
+    /* Footer Section */
+    .footer_meta{
+        position: relative;
+        top: 26px;
+        background-color: #0e2d52;
+        padding-bottom: 16px;
+    }
+
+    .location{
+        position: relative;
+        top: 14px;
+        left: 0px;
+        color: #FFF;
+    }
+
+    /*btn to return to top of page*/
+    #top{
+        position: relative;
+        top: -100px;
+        background: #FFF;
+        border: 0;
+        border-radius: 3px;
+        color: #0e2d52;
+        cursor: pointer;
+        width: 160px;
+        height: 40px;
+        text-align: top;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /*footer with copyright and links to other platforms*/
+    .subfooter{
+        height: 22px;
+    }
+
+    .copyright{
+        position: relative;
+        top: 30px;
+        left: 5px;
+        color: #0e2d52;
+    }
+
+    .links{
+        position: relative;
+        top: 0px;
+    }
+}
+
+
+/*stylesheet for screens with max 280px width (large phones)*/
+@media all and (max-device-width: 280px){
+    body{
+        font-size: 12px;
+    }
+    
+    #USCA{
+        display: none;
+    }
+
+    #top_header{
+        position: relative;
+        top: 10px;
+        left: 0px;
+        font-size: 63px;
+        width: 980px;
+        margin: 0%;
+    }
+
+    /*Format btns*/
+    .btn{
+        background: #FFF;
+        border: 0;
+        color: #0e2d52;
+        cursor: pointer;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    /*btns links to other pages*/
+    #home{
+        position: relative;
+        left: 0px;
+        top: 10px;
+    }
+
+    #contact{
+        position: relative;
+        left: 355px;
+        top: 10px;
+    }
+
+    #resources{
+        position: relative;
+        right: 10px;
+        top: 10px;
+    }
+        
+
+    /*Banner for page indication*/
+    .banner{
+        position: relative;
+        top: 25px;
+        background-color: #BE0523;
+
+    }
+
+    header{
+        position: relative;
+        color: #FFF;
+        left: 0px;
+        font-size: 40px;
+    }
+
+    /*Shift all content up to approiate spot*/
+    .content{
+        position: relative;
+        top: 40px;
+    }
+
+
+    /* Footer Section */
+    .footer_meta{
+        position: relative;
+        top: 26px;
+        background-color: #0e2d52;
+        padding-bottom: 16px;
+    }
+
+    .location{
+        position: relative;
+        top: 14px;
+        left: 0px;
+        color: #FFF;
+    }
+
+    /*btn to return to top of page*/
+    #top{
+        position: relative;
+        top: -100px;
+        background: #FFF;
+        border: 0;
+        border-radius: 3px;
+        color: #0e2d52;
+        cursor: pointer;
+        width: 160px;
+        height: 40px;
+        text-align: top;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /*footer with copyright and links to other platforms*/
+    .subfooter{
+        height: 22px;
+    }
+
+    .copyright{
+        position: relative;
+        top: 30px;
+        left: 5px;
+        color: #0e2d52;
+    }
+
+    .links{
+        position: relative;
+        top: 0px;
+    }
+}
