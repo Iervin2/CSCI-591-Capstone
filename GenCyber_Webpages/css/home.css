@@ -6,13 +6,7 @@ body{
     flex-direction: column;
 }
 
-/* Header Section [Top of page]
-#USCA{
-    position: relative;
-    width: 8vw;
-    height: 3vw;
-}
-*/
+/* Header Section [Top of page] */
 
 #top_header{
     position: relative;
@@ -107,13 +101,13 @@ header{
     margin: 30px 0px 30px 0px;
 }
 
-#goals_image_container{
+/*#goals_image_container{
     width: 100%;
     height: 10vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+}*/
 
 
 /* Text Content Section */
@@ -207,7 +201,7 @@ h2{
     padding: 10px;
     height: max-content;
     text-align: top;
-    font-size: 1rem;
+    font-size: 1vw;
     font-weight: bold;
 }
 
@@ -227,10 +221,14 @@ h2{
     width: max-content
 }
 
+#copr_statement{
+    font-size: 1vw;
+}
+
 .icons{
     position: relative;
     float: right;
-    right: 3%;
+    right: 3vw;
 }
 
 
@@ -244,8 +242,8 @@ h2{
 /**/
 /**/
 
-/*stylesheet for screens with max 280px width (large phones)*/
-/*@media all and (min-device-width: 280px){
+/*stylesheet for screens with max 980px width*/
+/*@media all and (min-device-width: 980px){
     body{
         font-size: 0.6rem;
     }
