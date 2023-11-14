@@ -152,28 +152,13 @@ h1{
 }
 
 .titles{
-    text-align: center;
-}
-
-#berry{
     position: relative;
+    text-align: center;
 }
 
 #senn{
     position: relative;
     left: 1.5vw;
-}
-
-#dobbs{
-    position: relative;
-}
-
-#peters{
-    position: relative;
-}
-
-#hutchens{
-    position: relative;
 }
 
 #daignault{
@@ -240,6 +225,7 @@ h1{
     right: 3vw;
 }
 
+
 /**/
 /**/
 /**/
@@ -249,5 +235,190 @@ h1{
 /**/
 /**/
 
-/*stylesheet for screens with max 980px width*/
-/*@media all and (min-device-width: 980px){
+/*stylesheet for screens with max 600px width*/
+/*@media all and (max-device-width: 600px){
+    body{
+        font-size: 0.6rem;
+    }
+    
+    #USCA{
+        display: none;
+    }
+
+    #top_header{
+        position: relative;
+        top: 10px;
+        left: 0px;
+        font-size: 1.8rem;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .btn{
+        background: #FFF;
+        border: 0;
+        color: #0e2d52;
+        cursor: pointer;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #home{
+        position: relative;
+        left: 0px;
+        top: 10px;
+    }
+
+    #contact{
+        position: relative;
+        left: 37vw;        
+        top: 10px;
+    }
+
+    #resources{
+        position: relative;
+        right: 10px;
+        top: 10px;
+    }
+        
+    .banner{
+        position: relative;
+        top: 25px;
+        background-color: #BE0523;
+
+    }
+
+    header{
+        position: relative;
+        color: #FFF;
+        left: 0px;
+        font-size: 2rem;
+    }
+
+    .content{
+        position: relative;
+        top: 40px;
+    }
+
+    h1{
+        position: relative;
+        left: 0%;
+        color: #0e2d52;
+        font-size: 1rem;
+    }
+
+    #summary{
+        position: relative;
+        left: 0%;
+    }
+    
+    #goals{
+        position: relative;
+        left: 0%;
+    }
+    
+    #who{
+        position: relative;
+        left: 0%;
+    }
+
+    #GenCyber{
+        position: relative;
+        height: 260px;
+        right: 15px;
+    }
+
+    h2{
+        position: relative;
+        left: 0%;
+        color: #FFF;
+        font-size: 1rem;
+    }
+
+    .workshop_times{
+        position: relative;
+        top: 2vh;
+        background-color: #BE0523;
+        padding-bottom: 45px;
+    }
+
+    #dates{
+        position: relative;
+        left: 3vw;
+        width: 94vw;
+        height: 200px;
+    }
+
+    .first{
+        background-color: #FFF;
+        text-align: center;
+        color: #000;
+        font-size: 1.5rem;
+        width: 31%;
+    }
+
+    .second{
+        background-color: #0e2d52;
+        text-align: center;
+        color: #FFF;
+        font-size: 1.5rem;
+        width: 30%;
+    }
+
+    .third{
+        background-color: #FFF;
+        text-align: center;
+        color: #000;
+        font-size: 1.5rem;
+    }
+
+    .footer_meta{
+        position: relative;
+        top: 1vh;
+        background-color: #0e2d52;
+        padding-bottom: 16px;
+    }
+
+    .location{
+        position: relative;
+        top: 14px;
+        font-size: 0.5rem;
+        left: 0px;
+        color: #FFF;
+    }
+
+    #top{
+        position: relative;
+        top: -5vh;
+        background: #FFF;
+        border: 0;
+        border-radius: 3px;
+        color: #0e2d52;
+        cursor: pointer;
+        width: 13vw;
+        height: 2vh;
+        text-align: top;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .subfooter{
+        height: 22px;
+    }
+
+    .copyright{
+        position: relative;
+        top: 30px;
+        left: 5px;
+        color: #0e2d52;
+        font-size: 1.2rem;
+        }
+
+    .links{
+        position: relative;
+        top: 0px;
+    }
+
+}*/
