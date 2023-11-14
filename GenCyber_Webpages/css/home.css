@@ -7,7 +7,6 @@ body{
 }
 
 /* Header Section [Top of page] */
-
 #top_header{
     position: relative;
     font-weight: 100;
@@ -101,15 +100,6 @@ header{
     margin: 30px 0px 30px 0px;
 }
 
-/*#goals_image_container{
-    width: 100%;
-    height: 10vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}*/
-
-
 /* Text Content Section */
 h1{
     position: relative;
@@ -117,14 +107,19 @@ h1{
     font-size: 1.5vw;
 }
 
+#goals_image_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
 #GenCyber{
     position: relative;
-    left: 52vw;
-    width: 45vw;
-    height: 25vw;
+    width: 30vw;
+    height: 17vw;
 }
-
 
 /* Table Section */
 h2{
