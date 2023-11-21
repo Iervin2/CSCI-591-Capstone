@@ -1,0 +1,91 @@
+/*Format page*/
+body{
+    background-color: #0e2d52;
+    width: 100%;
+}
+
+/*White frame around form*/
+.wrapper{
+    position: relative;
+    left: 27%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 47%;
+    height: 60%;
+    background: #FFF;
+    box-shadow: 20px 20px 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+.logo{
+    position: relative;
+    padding-top: 10%;
+    left: 43%;
+}
+
+/*Format headers*/
+header{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 100px;
+    letter-spacing: 1px;
+    height: 20px;
+}
+
+/*username prompt*/
+.u_name_hr{
+    position: relative;
+    left: 23%;
+}
+
+#u_name{
+    position: relative;
+    top: 10px;
+    left: 23%;
+    width: 59%;
+    height: 40px;
+}
+
+/*password prompt*/
+.p_word_hr{
+    position: relative;
+    top: -20px;
+    left: 23%;
+}
+
+#p_word{
+    position: relative;
+    top: -40px;
+    width: 59%;
+    height: 40px;
+}
+
+/*forgot password link*/
+#forgot{
+    position: relative;
+    top: 60px;
+    left: 23%;
+    width: 100px;
+    height: 31px;
+    color: #024990;
+    text-align: right;
+    font-size: 12px;
+}
+
+/*login btn*/
+#login{
+    position: relative;
+    margin-top: 70px;
+    left: 42%;
+    background: #0e2d52;
+    border: 0;
+    border-radius: 10px;
+    color: #FFF;
+    cursor: pointer;
+    position: absolute;
+    width: 126px;
+    height: 44px;
+    text-align: center;
+    font-weight: bold;
+}
+

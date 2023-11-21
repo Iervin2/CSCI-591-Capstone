@@ -1,0 +1,227 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Section [Top of page] */
+#top_header{
+    position: relative;
+    font-weight: 100;
+    margin: 0%;
+    font-size: 1.5vw;
+
+}
+
+.banner{
+    position: relative;
+    background-color: #BE0523;
+    padding: 10px 30px 10px 30px;
+}
+
+header{
+    font-size: 1.5vw;
+    color: white;
+}
+
+/*Format links*/
+.links{
+    cursor: pointer;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px;
+    margin: 0px 10px 0px 10px;
+}
+
+/*btns links to other pages*/
+#home{
+    position: relative;
+}
+
+#contact{
+    position: relative;
+    margin-left: 30px;
+}
+
+#resources{
+    position: relative;
+    margin-left: 30px;
+}
+
+/*Banner for page indication*/
+.banner{
+    position: relative;
+    background-color: #BE0523;
+}
+
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 60px);
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+}
+
+#title-container{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    align-items: center;
+    gap: 30px;
+}
+
+#link-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: max-content;
+    
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Shift all content up to approiate spot*/
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+    padding: 0px 30px 0px 30px;
+    margin: 30px 0px 30px 0px;
+}
+
+/* Text Content Section */
+h1{
+    position: relative;
+    color: #0e2d52;
+    font-size: 1.5vw;
+}
+
+#goals_image_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#GenCyber{
+    position: relative;
+    width: 30vw;
+    height: 17vw;
+}
+
+/* Table Section */
+h2{
+    position: relative;
+    color: #FFF;
+    font-size: 1.5vw;
+}
+
+.workshop_times{
+    position: relative;
+    background-color: #BE0523;
+    padding: 25px 30px 25px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#dates{
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+/*Format individual table coloumns*/
+.first{
+    background-color: #FFF;
+    text-align: center;
+    color: #000;
+    font-size: 1vw;
+    width: 31%;
+}
+
+.second{
+    background-color: #0e2d52;
+    text-align: center;
+    color: #FFF;
+    font-size: 1vw;
+    width: 30%;
+}
+
+.third{
+    background-color: #FFF;
+    text-align: center;
+    color: #000;
+    font-size: 1vw;
+}
+
+/* Footer Section */
+.footer_meta{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e2d52;
+    padding: 10px 30px 10px 30px
+}
+
+.location{
+    position: relative;
+    font-size: 1vw;
+    color: #FFF;
+    width: calc(50% - 30px);
+}
+
+/*btn to return to top of page*/
+#top{
+    background: #FFF;
+    border: 0;
+    border-radius: 3px;
+    color: #0e2d52;
+    cursor: pointer;
+    width: 13vw;
+    padding: 10px;
+    height: max-content;
+    text-align: top;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+/*footer with copyright and links to other platforms*/
+.subfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+    height: max-content
+}
+
+.copyright{
+    position: relative;
+    color: #0e2d52;
+    width: max-content
+}
+
+#copr_statement{
+    font-size: 1vw;
+}
+
+.icons{
+    position: relative;
+    float: right;
+    right: 3vw;
+}
