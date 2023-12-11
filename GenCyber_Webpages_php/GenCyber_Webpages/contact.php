@@ -34,27 +34,48 @@
             <header>GenCyber-Contacts</header>
         </div>
         <!--Informative content-->
-        <div class="content">
+        <div class="contentWrapper">
             <h1>Meet the USCA GenCyber Team</h1>
-            <div id="contact-container">
-                <h2>Contact Us</h2>
-                <p class="contact_title">GenCyber At University of<br>South Carolina - Aiken</p>
-                    <br>
-                    <br>
-                    <br>
-                <svg id="mail" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>#mail{fill:#0e2d52}</style><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
-                <input type="button" id="link" value="gencyber@usca.edu">
+            <div class="wrapper">
+                <div class="staff-container" id="top_3">
+                    <div class="staff">
+                        <img class="headshot" src="img/contact/HalaStrohmierBerry.jpg" alt="Photo of Hala Strohmier">
+                        <p class="titles" id="berry">Team Director<br>Dr. Hala Strohmier Berry</p>
+                    </div>
+                    <div class="staff">
+                        <img class="headshot"src="img/contact/Senn-Gary.jpg" alt="Photo of Gary Senn">
+                        <p class="titles" id="senn">Lead Instructor<br>Dr. Gary J. Senn</p>
+                    </div>
+                    <div class="staff">
+                        <img class="headshot" src="img/contact/AmberDobbs.jpg" alt="Photo of Amber Dobbs">
+                        <p class="titles" id="dobbs">K-12 Pedagogical Expert<br>Amber Bryan Dobbs</p>
+                    </div>
+                </div>
+                <div id="contact-container">
+                    <h2>Contact Us</h2>
+                    <p class="contact_title">GenCyber At University of<br>South Carolina - Aiken</p>
+                    <div>
+                        <svg id="mail" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>#mail{fill:#0e2d52}</style><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                        <input type="button" id="link" value="gencyber@usca.edu">
+                    </div>
+                </div>
             </div>
-            <div class="staff-container" id="top_3">
-                <p class="titles" id="berry">Team Director<br>Dr. Hala Strohmier Berry</p>
-                <p class="titles" id="senn">Lead Instructor<br>Dr. Gary J. Senn</p>
-                <p class="titles" id="dobbs">K-12 Pedagogical Expert<br>Amber Bryan Dobbs</p>
-            </div>
-            <img src="img/gencyber-logo-small.png" alt="GenCyber Logo" id="GenCyber">
-            <div class="staff-container" id="bot_3">
-                <p class="titles" id="peters">Cyber Ethics Instructor<br>Robert Peters</p>
-                <p class="titles" id="hutchens">Camp Facilitator<br>John Hutchens</p>
-                <p class="titles" id="daignault">Camp Instructor<br>  Julie Daignault</p>
+            <div class="wrapper">
+                <div class="staff-container" id="bot_3">
+                    <div class="staff">
+                        <img class="headshot" src="img/contact/HalaStrohmierBerry.jpg" alt="Photo of Hala Strohmier">
+                        <p class="titles" id="peters">Cyber Ethics Instructor<br>Robert Peters</p>
+                    </div>
+                    <div class="staff">
+                        <img class="headshot" src="img/contact/HalaStrohmierBerry.jpg" alt="Photo of Hala Strohmier">
+                        <p class="titles" id="hutchens">Camp Facilitator<br>John Hutchens</p>
+                    </div>
+                    <div class="staff">
+                        <img class="headshot" src="img/contact/HalaStrohmierBerry.jpg" alt="Photo of Hala Strohmier">
+                        <p class="titles" id="daignault">Camp Instructor<br>  Julie Daignault</p>
+                    </div>
+                </div>
+                <img src="img/gencyber-logo-small.png" alt="GenCyber Logo" id="GenCyber">
             </div>
         </div>
         <!--Blue footer-->
