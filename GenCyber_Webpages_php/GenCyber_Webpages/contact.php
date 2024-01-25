@@ -74,15 +74,15 @@
         <div class="wrapper">
             <div class="staff-container" id="bot_3">
                 <div class="staff">
-                    <img class="headshot" src="img/contact/HalaStrohmierBerry.jpg" alt="Photo of Hala Strohmier">
+                    <!--<img class="headshot" src="img/contact/" alt="Photo of Robert Peters">-->
                     <p class="titles" id="peters">Cyber Ethics Instructor<br>Robert Peters</p>
                 </div>
                 <div class="staff">
-                    <img class="headshot" src="img/contact/HalaStrohmierBerry.jpg" alt="Photo of Hala Strohmier">
+                    <!--<img class="headshot" src="img/contact/" alt="Photo of John Hutchens">-->
                     <p class="titles" id="hutchens">Camp Facilitator<br>John Hutchens</p>
                 </div>
                 <div class="staff">
-                    <img class="headshot" src="img/contact/HalaStrohmierBerry.jpg" alt="Photo of Hala Strohmier">
+                    <!--<img class="headshot" src="img/contact/" alt="Photo of Julie Daignault">-->
                     <p class="titles" id="daignault">Camp Instructor<br> Julie Daignault</p>
                 </div>
             </div>
